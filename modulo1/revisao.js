@@ -6,6 +6,13 @@ npm uninstall <dependencia> - desinstalla uma dependencia
 npm init - inicia uma estrutura básica de um projeto npm
 
 no package.json é possível especificar scripts que podem ser chamados com o comando npm como "npm start" 
+
+apis rest:
+- solicitações http
+- comunicação stateless (sem guardar as interações anteriores, cada request é uma nova coisa independente)
+- dados armazenáveis em cache
+- interface consistente
+- sistema de camadas hierarquico para processar as requisições
 */
 import express from 'express';
 // apis são aplicações web backend que devolvem informações ou executam ações baseado em requests http
